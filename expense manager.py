@@ -48,6 +48,7 @@ Budget_label=Label
 Name_Frame=Frame
 choice=''
 # frame=Frame
+print("hello everyone");
 # de=DateEntry
 cursor.execute(
     "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA=database() AND TABLE_NAME='manage_expense'")
